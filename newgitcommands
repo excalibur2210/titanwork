@@ -1,0 +1,256 @@
+ 1734  cd gitrepos/
+ 1735  ls
+ 1736  mkdir titanwork
+ 1737  ls
+ 1738  cd titanwork/
+ 1739  ls
+ 1740  git init
+ 1741  ls -a
+ 1742  cd .git/
+ 1743  ls
+ 1744  cd ..
+ 1745  ls
+ 1746  z -
+ 1747  ls
+ 1748  pwd
+ 1749  mkdir nebula jupiter pluto
+ 1750  ls
+ 1751  touch saturn {1..10}.py
+ 1752  ls
+ 1753  rm saturn {1..10}
+ 1754  ls
+ 1755  rm saturn {1..10}.py
+ 1756  ls
+ 1757  touch saturn{1..10}.py
+ 1758  ls
+ 1759  touch nebula/testter32
+ 1760  touch jupiter/test1
+ 1761  touch pluto/taster89
+ 1762  ls
+ 1763  z jupiter/
+ 1764  ls
+ 1765  z -
+ 1766  z nebula/
+ 1767  ls
+ 1768  z -
+ 1769  z pluto
+ 1770  ls
+ 1771  z -
+ 1772  ls
+ 1773  git status
+ 1774  git add .
+ 1775  git status
+ 1776  git commit -m "new files commited"
+ 1777  git status
+ 1778  git config --global user.name
+ 1779  git config --global user.email
+ 1780  git config --global --show-origin --list
+ 1781  git status
+ 1782  pwde
+ 1783  pwd
+ 1784  git remote add origin https://github.com/excalibur2210/titanwork.git
+ 1785  ls -a
+ 1786  cat .git/config
+ 1787  git branch -M main
+ 1788  git push -u origin main
+ 1789  ls
+ 1790  vim saturn1.py
+ 1791  cat saturn1.py
+ 1792  git status
+ 1793  git add saturn1.py
+ 1794  git commit -m "saturn moon discription"
+ 1795  git push origin main
+ 1796  mkdir /home/ansari/githubaccesstoken
+ 1797  touch /home/ansari/githubaccesstoken/token.txt
+ 1798  vim /home/ansari/githubaccesstoken/token.txt
+ 1799  git log
+ 1800  git log --oneline
+ 1801  git show 1c4ae53
+ 1802  nano saturn1.py
+ 1803  git add .
+ 1804  git commit -m "updated sturn moon names"
+ 1805  git push origin main
+ 1806  cat /home/ansari/githubaccesstoken/token.txt
+ 1807  git push origin main
+ 1808  git log --oneline
+ 1809  git show bf0fbe3
+ 1810  git pull
+ 1811  cat saturn10.py
+ 1812  git log
+ 1813  git log --oneline
+ 1814  uptime
+ 1815  ls
+ 1816  z
+ 1817  ls
+ 1818  cd gitrepos/
+ 1819  ls
+ 1820  cd titanwork/
+ 1821  ls
+ 1822  git branch -c sprint1
+ 1823  git branch -a
+ 1824  git checkout sprint1
+ 1825  git branch -a
+ 1826  git rm saturn6.py saturn7.py saturn8.py saturn9.py
+ 1827  ls
+ 1828  git status
+ 1829  git mv saturn1.py saturn11.py
+ 1830  git rm saturn2.py saturn3.py saturn4.py saturn5.py
+ 1831  touch jupiter{1..4}.rb
+ 1832  ls
+ 1833  git add .
+ 1834  git commit -m "jupiter changes"
+ 1835  git push origin sprint1
+ 1836  git pull
+ 1837  git checkout sprint2
+ 1838  touch sun eath mercury venus
+ 1839  git add .
+ 1840  git commit -m "planet and stars"
+ 1841  git push origin sprint2
+ 1842  git branch -a
+ 1843  ggit switch sprint1
+ 1844  git switch sprint1
+ 1845  ls
+ 1846  git switch main
+ 1847  ls
+ 1848  git merge sprint1
+ 1849  ls
+ 1850  git status
+ 1851  git switch sprint1
+ 1852  ls
+ 1853  git push --all origin
+ 1854  z
+ 1855  z gitrepos/
+ 1856  ls
+ 1857  rm -rf titanwork/
+ 1858  ls
+ 1859  git clone https://github.com/excalibur2210/titanwork.git
+ 1860  ls
+ 1861  z titanwork/
+ 1862  ls
+ 1863  git status
+ 1864  git log --oneline
+ 1865  echo "Version 1" > file.txt
+ 1866  git add file.txt
+ 1867  git commit -m "Commit 1: Version 1"
+ 1868  ls
+ 1869  cat file.txt
+ 1870  echo "Version 2" > file.txt
+ 1871  git add file.txt
+ 1872  git commit -m "Commit 2: Version 2"
+ 1873  echo "Version 3" > file.txt
+ 1874  git add file.txt
+ 1875  git commit -m "Commit 3: Version 3"
+ 1876  git log --oneline
+ 1877  echo "BAD CHANGE" >> file.txt
+ 1878  cat file.txt
+ 1879  git status
+ 1880  cat file.txt
+ 1881  git status
+ 1882  cat file.txt
+ 1883  git status
+ 1884  git restore file.txt
+ 1885  cat file.txt
+ 1886  echo "Bad change 1" >> file.txt
+ 1887  echo "Another file" > test.txt
+ 1888  ls
+ 1889  git status
+ 1890  git restore .
+ 1891  git status
+ 1892  ls
+ 1893  cat test.txt
+ 1894  git rm file.txt test.txt
+ 1895  ls
+ 1896  git rm file.txt test.txt
+ 1897  git rm file.txt
+ 1898  ls
+ 1899  git rm test.txt
+ 1900  cat test.txt
+ 1901  git rm -rf test.txt
+ 1902  ls
+ 1903  z
+ 1904  ls
+ 1905  z gitrepos tita
+ 1906  ls
+ 1907  git status
+ 1908  git rm -rf test.txt
+ 1909  ls
+ 1910  cat test.txt
+ 1911  rm test.txt
+ 1912  git status
+ 1913  vim jupiter1.rb
+ 1914  cat jupiter1.rb
+ 1915  git checkout jupiter1.rb
+ 1916  cat jupiter1.rb
+ 1917  git status
+ 1918  git diff
+ 1919  git status
+ 1920  vim jupiter1.rb
+ 1921  git diff
+ 1922  git status
+ 1923  git add .
+ 1924  git status
+ 1925  git diff
+ 1926  git diff --cached
+ 1927  git restore --staged jupiter1.rb
+ 1928  git status
+ 1929  git diff
+ 1930  git diff cached
+ 1931  git diff --cached
+ 1932  git add .
+ 1933  git commit -m "playbook"
+ 1934  git status
+ 1935  git diff
+ 1936  git diff --cached
+ 1937  git log --oneline
+ 1938  git diff b2f4ef2..f5d4914
+ 1939  git revert HEAD
+ 1940  ls
+ 1941  cat file.txt
+ 1942  cat jupiter1.rb
+ 1943  git log --oneline
+ 1944  git reset --hard 8436e50
+ 1945  git log --oneline
+ 1946  history
+ 1947  cat .git/config
+ 1948  z .ssh
+ 1949  z /home/ansari/.ssh/
+ 1950  ls
+ 1951  z titan
+ 1952  ls
+ 1953  la -a
+ 1954  ssh-keygen.exe
+ 1955  ssh-keygen
+ 1956  ls /home/ansari/.ssh/
+ 1957  ls -a /home/ansari/.ssh/
+ 1958  ll /home/ansari/.ssh/
+ 1959  cat /home/ansari/.ssh/id_ed25519.pub
+ 1960  cat /home/ansari/.ssh/id_ed25519
+ 1961  z -
+ 1962  z home
+ 1963  ls
+ 1964  z ansari/
+ 1965  ls
+ 1966  z gitrepos/
+ 1967  ls
+ 1968  git clone git@github.com:excalibur2210/PrivatRepoForTestSSH.git
+ 1969  ls
+ 1970  git clone git@github.com:excalibur2210/PrivatRepoForTestSSH.git
+ 1971  ls
+ 1972  cd PrivatRepoForTestSSH/
+ 1973  ls
+ 1974  cat test1
+ 1975  ls
+ 1976  z ..
+ 1977  ls
+ 1978  rm -rf *
+ 1979  ls
+ 1980  git clone  git@github.com:excalibur2210/PrivatRepoForTestSSH.git
+ 1981  ls
+ 1982  git clone git@github.com:excalibur2210/titanwork.git
+ 1983  ls
+ 1984  uptime
+ 1985  ls
+ 1986  z
+ 1987  ls
+ 1988  exit
+ 1989  cat githubaccesstoken/token.txt
